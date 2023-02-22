@@ -16,15 +16,7 @@ export default function Portfolio() {
       name: "Bookish",
       description:
         "A simple app that allows users to manage their library, search for books, and add books to their shelves. Connects on the backend with API built using node.js and express. Mongodb database.",
-      stack: [
-        "react",
-        "html",
-        "css",
-        "javascript",
-        "mongodb",
-        "nodejs",
-        "express",
-      ],
+      stack: ["react", "html", "css", "javascript", "mongodb", "nodejs"],
     },
   ];
 
@@ -38,15 +30,21 @@ export default function Portfolio() {
             <div>
               <div className="flex flex-row items-baseline justify-between space-x-2">
                 <h1 className="text-2xl font-bold">{project.name}</h1>
-                <div className="flex flex-row">
-                  <a href="">
+                <div className="flex flex-row space-x-1">
+                  <a
+                    href=""
+                    className="px-2 py-1  rounded border-2 border-secondary hover:bg-secondary"
+                  >
                     <img
                       src="./images/icons/github.svg"
                       className="w-4 h-4"
                       alt="github"
                     />
                   </a>
-                  <a href="">
+                  <a
+                    href=""
+                    className="px-2 py-1 rounded border-2 border-secondary hover:bg-secondary"
+                  >
                     <img
                       src="./images/icons/link.svg"
                       className="w-4 h-4"
