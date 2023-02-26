@@ -38,6 +38,8 @@ export default function Portfolio() {
                 <h1 className="text-2xl font-bold">{project.name}</h1>
                 <div className="flex flex-row space-x-1">
                   <a
+                    target="_blank"
+                    rel="noreferrer"
                     href={project.github}
                     className="px-2 py-1  rounded border-2 border-secondary hover:bg-secondary"
                   >
@@ -48,6 +50,8 @@ export default function Portfolio() {
                     />
                   </a>
                   <a
+                    target="_blank"
+                    rel="noreferrer"
                     href={project.link}
                     className="px-2 py-1 rounded border-2 border-secondary hover:bg-secondary"
                   >
