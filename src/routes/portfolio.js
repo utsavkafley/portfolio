@@ -4,23 +4,23 @@ export default function Portfolio() {
       name: "National Parks",
       description:
         "A simple app utilizing the National Parks API that allows users to search for national parks, filter by states, and view details about each park.",
-      stack: ["react", "html", "css", "javascript", "tailwindcss"],
+      stack: ["javascript", "react", "tailwindcss", "html", "css"],
       github: "https://github.com/utsavkafley/npfinder",
       link: "https://npfinder.vercel.app/",
+    },
+    {
+      name: "Bookish",
+      description:
+        "A simple app that allows users to manage their library, search for books, and add books to their shelves. Connects on the backend with API built using node.js and express. Mongodb database.",
+      stack: ["javascript", "nextjs", "supabase", "tailwindcss", "html", "css"],
+      github: "https://github.com/utsavkafley/",
+      link: "",
     },
     {
       name: "Penn Tool Library",
       description:
         "A online store built to support the idea of a community tool lending library. The site allows users to browse tools, add them to their cart, and send borrow requests.",
       stack: ["python", "html", "css", "flask", "mysql"],
-      github: "https://github.com/utsavkafley/",
-      link: "",
-    },
-    {
-      name: "Bookish",
-      description:
-        "A simple app that allows users to manage their library, search for books, and add books to their shelves. Connects on the backend with API built using node.js and express. Mongodb database.",
-      stack: ["react", "html", "css", "javascript", "mongodb", "nodejs"],
       github: "https://github.com/utsavkafley/",
       link: "",
     },

@@ -1,29 +1,30 @@
 export default function About() {
   const techStack = [
-    "html",
-    "css",
     "javascript",
     "react",
     "vue",
     "angular",
     "nodejs",
-    "mongodb",
     "mysql",
     "csharp",
     "dotnet",
+    "nextjs",
+    "supabase",
     "flask",
     "python",
     "git",
+    "html",
+    "css",
   ];
 
   return (
-    <div className=" flex flex-col justify-center items-center">
-      <section className="w-3/5 space-y-4">
+    <div className=" flex flex-col justify-center items-center px-8">
+      <section className="space-y-4 sm:w-3/5">
         <div className="flex flex-col xl:flex-row xl:space-x-4 items-start">
           <img
             src="./images/headshot.jpeg"
             alt="Utsav Kafley"
-            className="w-32 md:w-64 h-32 md:h-64 rounded mb-8"
+            className="w-32 lg:w-64 h-32 lg:h-64 rounded mb-8"
           />
           <div className="text-xl space-y-2">
             <h1 className="text-4xl">Hello!</h1>
@@ -49,7 +50,7 @@ export default function About() {
           </div>
         </div>
       </section>
-      <section className="my-4 w-3/5">
+      <section className="my-4 sm:w-3/5">
         {/* image from techstack */}
         <div className="">
           <h1 className="text-2xl font-bold">Technical Skills</h1>

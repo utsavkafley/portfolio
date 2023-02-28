@@ -19,16 +19,19 @@ export default function Resume() {
           <p className="text-base italic">May 2022 – Aug. 2022</p>
           <ul className="pl-4 text-lg">
             <li>
-              Developed user facing features on a full-stack logistics platform
-              (<a href="https://app.ltl.xpo.com/">https://app.ltl.xpo.com/</a>)
-              using TypeScript, Angular and ASP.NET Core.
+              Implement search functionality for an internal application using
+              AngularJS and ElasticSearch. Familiarity with state management
+              using RxJS.
             </li>
             <li>
-              Devised SQL scripts and managed time-sensitive updates, including
-              content changes and database upgrades in a fast-paced environment.
+              Design and develop REST APIs to create backend services using
+              .NET, facilitated communication between frontend and backend
+              applications.
             </li>
-            <li>Experience designing and working with REST APIs.</li>
-            <li>Exposure to Kafka event streaming and ElasticSearch.</li>
+            <li>
+              Write SQL scripts to fetch application data from database, wrote
+              up-scripts and stored procedures in SQL Server Management Studio.
+            </li>
           </ul>
         </div>
         <div>
@@ -36,14 +39,19 @@ export default function Resume() {
           <p className="text-base italic">May 2022 – Aug. 2022</p>
           <ul className="pl-4 text-lg">
             <li>
-              Developed user facing features on a full-stack health platform (
-              <a href="https://plans.humana.com">https://plans.humana.com</a>)
-              using JavaScript, Vue.js, .NET.
+              Develop user-facing features using Typescript and Vue.js in
+              collaboration with UX design team, state management with
+              Reactivity API. Test Driven Development with tools like Jest and
+              Cypress.
             </li>
-            <li>CI/CD automation and integration with Azure DevOps.</li>
             <li>
-              Writing and running tests across applications using Test Driven
-              Development methodologies.
+              Design, code, test and debug backend applications written in .NET,
+              communicate with database with SQL scripts.
+            </li>
+            <li>
+              Collaborate with developers on implementing time-sensitive
+              features in a pair-programming environment following Agile
+              software development approach.
             </li>
           </ul>
         </div>
@@ -53,8 +61,6 @@ export default function Resume() {
           <ul className="pl-4 text-lg">
             <li>
               Monitored daily shift operations in an aircraft maintenance unit.
-            </li>
-            <li>
               Logistics support to over 20 aircraft, aircrew and ground support
               technicians.
             </li>
@@ -89,64 +95,63 @@ export default function Resume() {
 
         <div className="flex flex-col">
           <h2>
-            Tool Lending Library |{" "}
+            Bookish |{" "}
             <span className="text-lg italic">
-              Python, Flask, MongoDB, TailwindCSS
+              JavaScript, Next.js, Supabase, TailwindCSS
             </span>
           </h2>
           <ul className="pl-4 text-lg">
             <li>
-              Designed and developed a Tool Lending Library app to provide
-              hardware and tools free of cost to members of the community who
-              can’t afford to own one.
+              Designed and developed a dashboard to track my personal library
+              with the ability to maintain reading-lists, wishlists and marking
+              books as read.
             </li>
             <li>
-              Used Flask to handle the back-end with MongoDB databases and
-              Bootstrap for styling and layout.
+              State management, routing and event handling with React.js,
+              MongoDB databases and Bootstrap for styling and layout.
             </li>
           </ul>
-          <div className="flex flex-col">
-            <h2>
-              Bookish |{" "}
-              <span className="text-lg italic">
-                JavaScript, React, MongoDB, TailwindCSS
-              </span>
-            </h2>
-            <ul className="pl-4 text-lg">
-              <li>
-                Designed and developed a dashboard to track my personal library
-                with the ability to maintain reading-lists, wishlists and
-                marking books as read.
-              </li>
-              <li>
-                State management, routing and event handling with React.js,
-                MongoDB databases and Bootstrap for styling and layout.
-              </li>
-            </ul>
-          </div>
         </div>
-
-        <div>
-          <h1 className="underline text-2xl">Technical Skills</h1>
-          <ul className="pl-4 text-lg">
-            <li>
-              Languages: Java, Python, C, SQL, JavaScript, TypeScript, HTML/CSS
-            </li>
-            <li>
-              {" "}
-              Developer Tools: Git, Docker, VS Code, Visual Studio, MSSQL,
-              Kafka, ElasticSearch Libraries: pandas, NumPy, Matplotlib, SciPy
-            </li>
-            <li> Workflow: Test Driven Development, Pair Programming </li>
-          </ul>
-        </div>
-        <div>
-          <h1 className="underline text-2xl">Awards and Recognition</h1>
-          <p className="pl-4 text-lg">
-            Air Force Achievement Medal: Recognized for meritorious service
-            supporting Operation Inherent Resolve
-          </p>
-        </div>
+      </div>
+      <div className="flex flex-col">
+        <h2>
+          Tool Lending Library |{" "}
+          <span className="text-lg italic">
+            Python, Flask, SQLite, TailwindCSS
+          </span>
+        </h2>
+        <ul className="pl-4 text-lg">
+          <li>
+            Designed and developed a Tool Lending Library app to provide
+            hardware and tools free of cost to members of the community who
+            can’t afford to own one.
+          </li>
+          <li>
+            Used Flask to handle the back-end with MongoDB databases and
+            Bootstrap for styling and layout.
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h1 className="underline text-2xl">Technical Skills</h1>
+        <ul className="pl-4 text-lg">
+          <li>
+            Languages: Java, Python, C, SQL, JavaScript, TypeScript, HTML/CSS
+          </li>
+          <li>
+            {" "}
+            Developer Tools: Git, Docker, VS Code, Visual Studio, MSSQL, Kafka,
+            ElasticSearch Libraries: pandas, NumPy, Matplotlib, SciPy
+          </li>
+          <li> Workflow: Test Driven Development, Pair Programming </li>
+        </ul>
+      </div>
+      <div>
+        <h1 className="underline text-2xl">Awards and Recognition</h1>
+        <p className="pl-4 text-lg">
+          Air Force Achievement Medal: Recognized for meritorious service
+          supporting Operation Inherent Resolve
+        </p>
       </div>
     </div>
   );
